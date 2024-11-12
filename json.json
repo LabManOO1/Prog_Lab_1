@@ -1,0 +1,71 @@
+{
+    "name": "Книжный мир",
+    "address": "Москва, ул. Пушкина, 1",
+    "inventory": {
+        "books": [
+            {
+                "title": "Мастер и Маргарита",
+                "author": "Михаил Булгаков",
+                "genre": "Роман",
+                "price": 500,
+                "stock": 6
+            },
+            {
+                "title": "1984",
+                "author": "Джордж Оруэлл",
+                "genre": "Фантастика",
+                "price": 400,
+                "stock": 0
+            }
+        ]
+    },
+    "cash_register": {
+        "total_sales": 1000
+    },
+    "employees": [
+        {
+            "name": "Алексей Смирнов",
+            "role": "Продавец",
+            "salary": 30000
+        }
+    ],
+    "categories": [],
+    "orders": [
+        {
+            "customer": {
+                "name": "Иван Иванов",
+                "email": "ivan@mail.com",
+                "phone": "+79991234567",
+                "orders": []
+            },
+            "book": {
+                "title": "Мастер и Маргарита",
+                "author": "Михаил Булгаков",
+                "genre": "Роман",
+                "price": 500,
+                "stock": 6
+            },
+            "quantity": 2,
+            "total_price": 1000,
+            "status": "В процессе"
+        },
+        {
+            "customer": {
+                "name": "Иван Иванов",
+                "email": "ivan@mail.com",
+                "phone": "+79991234567",
+                "orders": []
+            },
+            "book": {
+                "title": "1984",
+                "author": "Джордж Оруэлл",
+                "genre": "Фантастика",
+                "price": 400,
+                "stock": 0
+            },
+            "quantity": 5,
+            "total_price": 2000,
+            "status": "В процессе"
+        }
+    ]
+}

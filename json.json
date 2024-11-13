@@ -1,71 +1,51 @@
 {
-    "name": "Книжный мир",
-    "address": "Москва, ул. Пушкина, 1",
-    "inventory": {
-        "books": [
-            {
-                "title": "Мастер и Маргарита",
-                "author": "Михаил Булгаков",
-                "genre": "Роман",
-                "price": 500,
-                "stock": 6
-            },
-            {
-                "title": "1984",
-                "author": "Джордж Оруэлл",
-                "genre": "Фантастика",
-                "price": 400,
-                "stock": 0
-            }
-        ]
-    },
-    "cash_register": {
-        "total_sales": 1000
-    },
-    "employees": [
-        {
-            "name": "Алексей Смирнов",
-            "role": "Продавец",
-            "salary": 30000
-        }
-    ],
-    "categories": [],
-    "orders": [
-        {
-            "customer": {
-                "name": "Иван Иванов",
-                "email": "ivan@mail.com",
-                "phone": "+79991234567",
-                "orders": []
-            },
-            "book": {
-                "title": "Мастер и Маргарита",
-                "author": "Михаил Булгаков",
-                "genre": "Роман",
-                "price": 500,
-                "stock": 6
-            },
-            "quantity": 2,
-            "total_price": 1000,
-            "status": "В процессе"
-        },
-        {
-            "customer": {
-                "name": "Иван Иванов",
-                "email": "ivan@mail.com",
-                "phone": "+79991234567",
-                "orders": []
-            },
-            "book": {
-                "title": "1984",
-                "author": "Джордж Оруэлл",
-                "genre": "Фантастика",
-                "price": 400,
-                "stock": 0
-            },
-            "quantity": 5,
-            "total_price": 2000,
-            "status": "В процессе"
-        }
-    ]
+   "name": "\u0420\u0459\u0420\u0405\u0420\u0451\u0420\u00b6\u0420\u0405\u0421\u2039\u0420\u2116 \u0420\u0458\u0420\u0451\u0421\u0402",
+   "address": "\u0420\u045a\u0420\u0455\u0421\u0403\u0420\u0454\u0420\u0406\u0420\u00b0, \u0421\u0453\u0420\u00bb. \u0420\u045f\u0421\u0453\u0421\u20ac\u0420\u0454\u0420\u0451\u0420\u0405\u0420\u00b0, 1",
+   "inventory": {
+      "books": [
+         {
+            "title": "Master and Margarita",
+            "author": "Egor Kabuba",
+            "genre": "Roman",
+            "price": 1500,
+            "stock": 30
+         }
+      ]
+   },
+   "cash_register": 82200,
+   "employees": [
+      {
+         "name": "Ivanov Ivan",
+         "role": "Manager",
+         "salary": 70000
+      }
+   ],
+   "orders": [
+      {
+         "customer": {
+            "name": "Maxim Goncgarov",
+            "email": "Mail@gmail.com",
+            "phone": "89771111111"
+         },
+         "books": [
+            "Master and Margarita"
+         ],
+         "quantity": 10,
+         "total_price": 15000,
+         "status": "\u0412 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435"
+      },
+      {
+         "customer": {
+            "name": "Pavel",
+            "email": "PavelMail@yandex.ru",
+            "phone": "+79161111111"
+         },
+         "books": [
+            "Master and Margarita"
+         ],
+         "quantity": 7,
+         "total_price": 10500,
+         "status": "\u0412 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435"
+      }
+   ]
 }
